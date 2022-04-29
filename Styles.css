@@ -1,0 +1,427 @@
+body{
+    margin: 0px;
+    background-image: url('images/Vector.svg'),repeating-linear-gradient(rgba(0, 3, 65, 1), rgba(0, 51, 128, 1));
+}
+
+/*  */
+
+/* Header */
+.header{
+    height: 50px;
+    width: 100vw;
+}
+
+#logo{
+    position: absolute;
+    left: 150px;
+    right: 75px;
+    top: 10px;
+    bottom: 45px;
+}
+
+#search{
+    position: absolute;
+    width: 560px;
+    height: 35px;
+    left: 550px;
+    top: 20px;
+    background-color: rgba(255, 255, 255, 0.1);
+    border: 2px black;
+    border-radius: 3px;
+}
+
+#marketplace{
+    position: relative;
+    height: 35px;
+    left: 1150px;
+    top: 17px;
+}
+
+#notification{
+    position: relative;
+    height: 35px;
+    left: 1190px;
+    top: 15px;
+}
+
+/*  */
+
+/* Main */
+.heading{
+    height: 20vh;
+    width: 100vw;
+    /* background-color: yellow; */
+    /* text-align: center; */
+}
+
+#sub-heading{
+    position: relative;
+    top: 40px;
+    left: 180px;
+    height: fit-content;
+    width: fit-content;
+    vertical-align: middle;
+    /* text-align: left; */
+    /* background-color: orange; */
+    /* border: 1px solid red; */
+    /* padding-right: 1200px; */
+}
+
+#sub-heading2{
+    position: absolute;
+    top: 120px;
+    left: 1200px;
+    height: fit-content;
+    width: fit-content;
+}
+
+#sub-heading > h1 {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 50px;
+    line-height: 15%;
+    color: white;
+}
+
+#sub-heading > h3 {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 15px;
+    font-weight: 200;
+    letter-spacing: 1.5px;
+    color: white;
+}
+
+#sub-heading2 > h3 > a {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 20px;
+    text-align: right;
+    text-decoration-line: underline;
+    color: white;
+    text-align: bottom;
+}
+
+/*  */
+
+/* Packs */
+.packs{
+    height: 85vh;
+    width: 100vw;
+    margin: 0px;
+    padding: auto;
+}
+
+#pack1{
+    height: fit-content;
+    width: fit-content;
+    position: relative;
+    left: 160px;
+    vertical-align: middle;
+}
+#pack1 > h3{
+    font-family: 'Montserrat', sans-serif;
+    font-size: 20px;
+    line-height: 15%;
+    color: white;
+    text-align: center;
+    margin: auto;
+    width: 60%;
+    padding: 10px;
+}
+#pack1 > h5{
+    font-family: 'Montserrat', sans-serif;
+    font-size: 10px;
+    font-weight: 200;
+    color: white;
+    text-align: center;
+    letter-spacing: 1.5px;
+    text-align: center;
+    margin: auto;
+    width: 60%;
+    padding: 5px;
+}
+#view1{
+    position: absolute;
+    top: 410px;
+    left: 50px;
+    vertical-align: middle;
+    width: 134px;
+    height: 52px;
+    border: 1px solid #FFFFFF;
+    box-sizing: border-box;
+    background-color: transparent;
+    color: #FFFFFF;
+    font-weight: 800;
+    font-size: 20px;
+    line-height: 24px;
+    text-align: center;
+}
+
+#pack2{
+    height: fit-content;
+    width: fit-content;
+    position: absolute;
+    top: 240px;
+    left: 410px;
+    vertical-align: middle;
+}
+#pack2 > h3{
+    font-family: 'Montserrat', sans-serif;
+    font-size: 20px;
+    line-height: 15%;
+    color: white;
+    text-align: center;
+    text-align: center;
+    margin: auto;
+    width: 60%;
+    padding: 10px;
+}
+#pack2 > h5{
+    font-family: 'Montserrat', sans-serif;
+    font-size: 10px;
+    font-weight: 200;
+    color: white;
+    text-align: center;
+    letter-spacing: 1.5px;
+    text-align: center;
+    margin: auto;
+    width: 60%;
+    padding: 5px;
+}
+#view2{
+    position: absolute;
+    top: 410px;
+    left: 50px;
+    vertical-align: middle;
+    width: 134px;
+    height: 52px;
+    border: 1px solid #FFFFFF;
+    box-sizing: border-box;
+    background-color: transparent;
+    color: #FFFFFF;
+    font-weight: 800;
+    font-size: 20px;
+    line-height: 24px;
+    text-align: center;
+}
+
+#pack3{
+    height: fit-content;
+    width: fit-content;
+    position: absolute;
+    top: 240px;
+    left: 670px;
+    vertical-align: middle;
+}
+#pack3 > h3{
+    font-family: 'Montserrat', sans-serif;
+    font-size: 20px;
+    line-height: 15%;
+    color: white;
+    text-align: center;
+    text-align: center;
+    margin: auto;
+    width: 60%;
+    padding: 10px;
+}
+#pack3 > h5{
+    font-family: 'Montserrat', sans-serif;
+    font-size: 10px;
+    font-weight: 200;
+    color: white;
+    text-align: center;
+    letter-spacing: 1.5px;
+    text-align: center;
+    margin: auto;
+    width: 60%;
+    padding: 5px;
+}
+#view3{
+    position: absolute;
+    top: 410px;
+    left: 50px;
+    vertical-align: middle;
+    width: 134px;
+    height: 52px;
+    border: 1px solid #FFFFFF;
+    box-sizing: border-box;
+    background-color: transparent;
+    color: #FFFFFF;
+    font-weight: 800;
+    font-size: 20px;
+    line-height: 24px;
+    text-align: center;
+}
+
+#pack4{
+    height: fit-content;
+    width: fit-content;
+    position: absolute;
+    top: 240px;
+    left: 930px;
+    vertical-align: middle;
+}
+#pack4 > h3{
+    font-family: 'Montserrat', sans-serif;
+    font-size: 20px;
+    line-height: 15%;
+    color: white;
+    text-align: center;
+    text-align: center;
+    margin: auto;
+    width: 60%;
+    padding: 10px;
+}
+#pack4 > h5{
+    font-family: 'Montserrat', sans-serif;
+    font-size: 10px;
+    font-weight: 200;
+    color: white;
+    text-align: center;
+    letter-spacing: 1.5px;
+    text-align: center;
+    margin: auto;
+    width: 60%;
+    padding: 5px;
+}
+#view4{
+    position: absolute;
+    top: 410px;
+    left: 50px;
+    vertical-align: middle;
+    width: 134px;
+    height: 52px;
+    border: 1px solid;
+    box-sizing: border-box;
+    background-color: transparent;
+    color: #FFFFFF;
+    font-weight: 800;
+    font-size: 20px;
+    line-height: 24px;
+    text-align: center;
+}
+
+#pack5{
+    height: fit-content;
+    width: fit-content;
+    position: absolute;
+    top: 250px;
+    left: 1200px;
+    vertical-align: middle;
+}
+#reveal{
+    position: absolute;
+    top: 400px;
+    left: 30px;
+    width: 134px;
+    height: 52px;
+    box-sizing: border-box;
+    text-align: center;
+    margin: auto;
+    width: 60%;
+    padding: 10px;
+    background-color: transparent;
+    color: #FFFFFF;
+    font-family: 'Montserrat', sans-serif;
+    font-style: normal;
+    font-weight: 200;
+    font-size: 20px;
+    line-height: 24px;
+    text-align: center;
+}
+.shadow{
+    position: absolute;
+    top: 350px;
+    left: 15px;
+    width: 184px;
+    height: 11px;
+    background: #1D1D1D;
+    opacity: 1;
+    filter: blur(20.7846px);
+}
+/*  */
+
+/* Footer */
+.footer{
+    height: 25vh;
+    width: 100vw;
+    background-color: white;
+    position: absolute;
+}
+
+.policy{
+    position: absolute;
+    top: 10px;
+    left: 160px;
+    vertical-align:text-top;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 15px;
+    font-weight: 100;
+    color: rgba(123, 123, 123, 1);
+}
+
+.links1 {
+    position: absolute;
+    bottom: 50px;
+    left: 350px;
+    height: 50%;
+    width: 70%;
+    word-spacing: 10000px;
+    display: flex;
+    align-items: center;
+    gap: 30px;
+    justify-content: center;
+    flex-wrap: wrap;
+    font-family: 'Montserrat', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 24px;
+    color: #969696;
+}
+.links2 {
+    position: absolute;
+    bottom: 30px;
+    left: 400px;
+    height: 50%;
+    width: 70%;
+    display: flex;
+    align-items: center;
+    gap: 30px;
+    justify-content: center;
+    flex-wrap: wrap;
+    font-family: 'Montserrat', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 24px;
+    color: #969696;
+}
+
+.seperation {
+    border-left: 1px solid rgb(206, 200, 200);
+    height: 100px;
+    position: absolute;
+    top: 40px;
+    left: 1150px;
+}
+
+.logo{
+    position: absolute;
+    top: 60px;
+    left: 1200px;
+}
+.graphics{
+    position: absolute;
+    bottom: 25px;
+    left: 1347px;
+}
+
+
+/* Media Query */
+
+@media only screen and (min-width: 768px) {
+    .container {width: 100%}
+    .header {width: 50%;}
+    .heading{width: 75%;}
+    .packs{width: 100%;}
+    .footer {width: 100%;}
+}
